@@ -18,4 +18,10 @@ Route::get('/', function () {
 });
 
 Route::view('about', 'pages.about');
+Route::view('overview', 'pages.overview');
+Route::view('calculate', 'pages.calculate');
+Route::view('result', 'pages.result');
+
+Route::post('calculating', 'WidgetController@calculateWidgets');
+
 
