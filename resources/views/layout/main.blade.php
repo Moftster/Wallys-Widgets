@@ -28,6 +28,7 @@
     </nav>
     
     <div class="container">
+        <br>
         @yield('content')
     </div>
 
