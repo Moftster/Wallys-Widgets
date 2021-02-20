@@ -4,6 +4,8 @@
 
 <div class="jumbotron">
     <h3 class="display-4">Understand the T&Cs!</h3>
+
+    <hr class="my-4">
     
     <p class="lead">You can can order any number of widgets, but will always be given complete packs.</p>
 
@@ -15,7 +17,6 @@
         <li class="lead">Within the constraints of Rules 1 & 2 above, send out as few packs as possible to fulfil each order.</li>
     </ol>
 
-    <hr class="my-4">
     <table class="table table-bordered">
         <thead>
           <tr>

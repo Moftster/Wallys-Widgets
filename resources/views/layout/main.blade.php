@@ -17,13 +17,11 @@
           <img src="{{ asset('images/menu.png') }}" width="30" height="30" alt="">
           Wally's Widgets
         </a>
-        {{-- <div class="collapse navbar-collapse" id="navbarNav"> --}}
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="/about">About</a>
             </li>
           </ul>
-        {{-- </div> --}}
       </div>
     </nav>
     
@@ -34,8 +32,11 @@
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">Site created by David Moftakhar for <a href="https://www.stickee.co.uk/" title="stickee">stickee</a>.</span>
-        <div>Icons made by <a href="https://www.flaticon.com/authors/bqlqn" title="bqlqn">bqlqn</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div class="text-right">
+          <div>Site created by David Moftakhar for <a href="https://www.stickee.co.uk/" title="stickee">stickee</a></div>
+          <div class="text-muted">Icons made by <a href="https://www.flaticon.com/authors/bqlqn" title="bqlqn">bqlqn</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          <div class="text-muted">Open source illustrations from <a href="https://undraw.co/illustrations" title="bqlqn">unDraw</a></div>
+        </div>
       </div>
     </footer>
 

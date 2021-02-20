@@ -17,6 +17,8 @@
     @csrf
     <h3 class="display-4">Let's do the maths!</h3>
 
+    <hr class="my-4">
+
     <p class="lead">Enter the number of widgets required below...</p>
 
     <div class="form-group">
@@ -26,6 +28,11 @@
     <div class="d-flex justify-content-center">
         <button type="submit" class="btn btn-primary btn-lg">Submit</button>
     </div>
+
+    <div class="text-center">
+      <img class="img-fluid" src="{{ asset('images/maths1.svg') }}" alt="">
+    </div>
+
 </form>
 
 </div>
