@@ -3,13 +3,23 @@
 @section('content')
 
 <div class="jumbotron">
-    <h1 class="display-4">You require XX packages!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+
+    <h1 class="display-4">Total packs required = {{ session()->get( 'numberOfPacks' ) }}!</h1>
+
+    <p class="lead">You ordered {{session()->get( 'widgetsOrdered' ) }} Widgets and therefore required the following packs:</p>
+
+    <ul>
+      @foreach(session()->get( 'countedNumberOfPacks' ) as $key => $value)
+        <li>{{$value}} x {{$key}}</li>
+      @endforeach
+    </ul>
+
     <hr class="my-4">
-    <p>Click below to start again...</p>
+
     <p class="lead">
       <a class="btn btn-primary btn-lg" href="/" role="button">Calculate more Widgets!</a>
     </p>
-</div>
+<
+/div>
 
 @endsection
