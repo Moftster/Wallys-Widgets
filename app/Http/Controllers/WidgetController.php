@@ -16,7 +16,7 @@ class WidgetController extends Controller
     {
         
         $request->validate([
-            'numberOfWidgets' => 'required|numeric'
+            'numberOfWidgets' => 'required|numeric|max:100000000'
             ]);
             
         $widgetsOrdered = $request->get('numberOfWidgets');
