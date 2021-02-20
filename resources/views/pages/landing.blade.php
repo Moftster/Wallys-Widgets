@@ -8,7 +8,7 @@
 
     <hr class="my-4">
 
-    <p class="lead">Wally's Widget Company is a Widget wholesaler. This application will enable you to caculate how many widgets you require for your order.</p>
+    <p class="lead">Wally's Widget Company is a Widget wholesaler. This application will enable you to caculate how many packets  you require based on the number of widgets in your order.</p>
     
     <p class="lead">Click below to start calculating how many packs of widgets will be required for your order!</p>
 

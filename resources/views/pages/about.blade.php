@@ -4,7 +4,7 @@
 
 <div class="jumbotron">
 
-    <h3 class="display-4">About</h3>
+    <h3 class="display-4">About Wally's Widgets</h3>
 
     <hr class="my-4">
 

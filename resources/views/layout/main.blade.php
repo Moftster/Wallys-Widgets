@@ -14,14 +14,18 @@
     <nav class="navbar navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="/">
-          <img src="{{ asset('images/menu.png') }}" width="30" height="30" alt="">
-          Wally's Widgets
+          <img src="{{ asset('images/logo2.svg') }}" width="30" height="30" alt="">
+          <span class="nav-logo">
+            Wally's Widgets
+          </span> 
         </a>
+        <div class="float-right">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/about">About</a>
+              <a class="nav-link nav-about" href="/about">About</a>
             </li>
           </ul>
+        </div>
       </div>
     </nav>
     
@@ -39,6 +43,23 @@
         </div>
       </div>
     </footer>
+
+    <style type="text/css">
+
+      .nav-logo{
+        font-family: 'Courier New';
+        font-weight: bold;
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+
+      .nav-about{
+        font-family: 'Courier New';
+        margin-right: 3rem;
+        font-weight: 600;
+      }
+ 
+      </style>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
