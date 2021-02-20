@@ -4,41 +4,81 @@
 
 <div class="jumbotron">
     <h3 class="display-4">Understand the T&Cs!</h3>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    
+    <p class="lead">You can can order any number of widgets, but will always be given complete packs.</p>
+
+    <p class="lead">Your order will be fulfilled according to the following rules:</p>
+
+    <ol>
+        <li class="lead">Only whole packs can be sent. Packs cannot be broken open.</li>
+        <li class="lead"> Within the constraints of Rule 1 above, send out no more widgets than necessary to fulfil the order.</li>
+        <li class="lead">Within the constraints of Rules 1 & 2 above, send out as few packs as possible to fulfil each order.</li>
+    </ol>
+
     <hr class="my-4">
     <table class="table table-bordered">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Number of Widgets Ordered</th>
+            <th scope="col">Correct packs to send</th>
+            <th scope="col">Incorrect solution(s)</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <th>1</th>
+            <td>250 x 1</td>
+            <td>500 x 1 (too many widgets)</td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <th>250</th>
+            <td>250 x 1</td>
+            <td>500 x 1 (too many widgets)</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <th>251</th>
+            <td>500 x 1</td>
+            <td>
+              <b><p>250 x 2 (too many widgets)</p></b>
+              <p>This one can be confusing!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>501</th>
+            <td>
+              500 x 1
+              <br>
+              250 x 1
+            </td>
+            <td>
+              <p>1000 x 1 (too many widgets)</p>
+              <p>250 x 3 (too many packs)</p>
+            </td>
+          </tr>
+          <tr>
+            <th>12,001</th>
+            <td>
+              5,000 x 2
+              <br>
+              2,000 x 1
+              <br>
+              250 x 1
+            </td>
+            <td>5,000 x 3 (too many widgets)</td>
           </tr>
         </tbody>
       </table>
-    <p>Click below to start calculating how many packs of widgets will be required for your order!</p>
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="/calculate" role="button">Calculate Widgets!</a>
-    </p>
+
+    <p class="lead">Click below to start calculating how many packs of widgets will be required for your order!</p>
+
+    <br>
+
+    <div class="d-flex justify-content-center">
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="/calculate" role="button">Calculate Widgets!</a>
+      </p>
+    </div>
+
 </div>
 
 @endsection
