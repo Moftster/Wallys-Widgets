@@ -13,7 +13,7 @@
 
 <div class="jumbotron">
 
-<form method="post" action="{{url('/calculating')}}">
+<form method="POST" action="{{url('/calculating')}}">
     @csrf
     <h3 class="display-4">Let's do the maths!</h3>
 
